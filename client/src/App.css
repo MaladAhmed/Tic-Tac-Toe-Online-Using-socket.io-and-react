@@ -1,0 +1,32 @@
+.board {
+  display: flex;
+  flex-wrap : wrap;
+  justify-content: space-between;
+  width: 400px;
+}
+.disabled {
+  pointer-events: none;
+  opacity:0.8
+}
+.correctButton {
+  border: 2px solid green;
+}
+.square {
+  height: 100px;
+  flex: 0 0 32%;
+  border: 1px solid lightgrey;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.square-item{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 55px;
+ font-weight: 700; 
+}
+.square-win{
+  border: 2px solid rgb(21, 200, 21)
+}
